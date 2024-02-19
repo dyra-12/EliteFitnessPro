@@ -1,12 +1,11 @@
 <h1>Elite Fitness Pro</h1>
 
 <h3>Problem  Background:</h3>
-
-<h3>Problem Description</h3>
 <p>
   In today's digital era, businesses are dedicated to identifying and leveraging their core competencies to enhance their reach and facilitate growth within a wider audience. This pursuit mandates the implementation of an ongoing strategy for the consistent publication of informative blog content. Additionally, forming partnerships with virtual vendors is imperative to establish regular online engagements and embark on digital marketing campaigns across various social platforms. Webfosys Networks Pvt. Ltd., with a strategic intent, endeavored to engage its clientele through captivating and innovative approaches, thereby augmenting their online presence and bolstering brand recognition
 </p>
 
+<h3>Problem Description</h3>
 <p>The  internship  centered  on  the  creation  of  a  user-friendly  ecommerce  store  named  ‘Elite Fitness  Pro'  This  involved  ensuring  seamless  navigation,  secure  payment  options,  and  an aesthetically  pleasing  interface  to  enhance  sales  conversion  rates.  The  store's  product  offerings were  fitness  products.  The  ultimate  goal  was  to  curate  an  enticing  collection,  particularly focusing  on  products  not  readily  available  in  local  brick-and-mortar  stores.</p>
 
 <h3>Establishment of E-commerce Website with Enhanced Functionality:</h3>
