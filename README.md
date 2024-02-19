@@ -9,8 +9,8 @@
 <p>The  internship  centered  on  the  creation  of  a  user-friendly  ecommerce  store  named  ‘Elite Fitness  Pro'  This  involved  ensuring  seamless  navigation,  secure  payment  options,  and  an aesthetically  pleasing  interface  to  enhance  sales  conversion  rates.  The  store's  product  offerings were  fitness  products.  The  ultimate  goal  was  to  curate  an  enticing  collection,  particularly focusing  on  products  not  readily  available  in  local  brick-and-mortar  stores.</p>
 
 <h3>Establishment of E-commerce Website with Enhanced Functionality:</h3>
-<p>Fundamental Assumptions: The core objective during the development of the enhanced e-commerce website, in addition to promoting sales growth and elevating customer satisfaction for fitness equipment products, included the assumption that we would craft an alternative version of the website utilizing our coding expertise.</p>
-<p>Methodological Approach:</p>
+<p><u>Fundamental Assumptions:</u> The core objective during the development of the enhanced e-commerce website, in addition to promoting sales growth and elevating customer satisfaction for fitness equipment products, included the assumption that we would craft an alternative version of the website utilizing our coding expertise.</p>
+<p><u>Methodological Approach:</u></p>
 <ul>
   <li>The initiative commenced with the creation of comprehensive wireframes and design prototypes, ensuring an intuitive user experience, visually pleasing layouts, and optimal functionality.</li>
   <li>A meticulous overhaul of the website's design was undertaken, harmonizing it seamlessly with the client's branding and encompassing a diverse array of fitness equipment products.</li>
