@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shopStyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="icon" href="assets/l2.png">
+  <script src="shop.js" async></script>
+
+  <title> Elite Fitness Pro | &nbsp;Shop Collections</title>
+</head>
+
+<body onload="allBtnClickOnload()">
+  <!-- NAVBAR -->
+  <section id="header">
+    <a href="#"><img src="assets/logo.png" alt="" style="height:50px; width: 200px; margin-top: 10px;" /></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Login</a></li>
+        <li id="lg-bag">
+          <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+        </li>
+        <a href="#" id="close"><i class="fa fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section id="page-header">
+
+    <h2>#keep-browsing</h2>
+
+    <p>Save more with coupons & upto 70 % off!</p>
+
+  </section>
+
+  <!-- Filter buttons -->
+  <section id="filter-buttons-container" class="">
+    <div class="filter-title">
+      <h1>Collections</h1>
+    </div>
+    <div class="filter-buttons filter-button-group">
+      <button type="button" id="allItemsBtn"class="normal" data-filter="*">All</button>
+      <button type="button" class="normal" data-filter=".g">Gadgets</button>
+      <button type="button" class="normal" data-filter=".e">Equipments</button>
+      <button type="button" class="normal" data-filter=".m">Meditation</button>
+      <button type="button" class="normal" data-filter=".w">Wellness And Healing</button>
+      
+    </div>
+
+  </section>
+
+  <!-- Products -->
+
+
+  <section id="product1" class="section-p1">
+
+    <div class="pro-container">     
+
+      <div class="pro g">
+        <img src="assets/products/11.png" alt="" />
+        <div class="des">
+          <span>Gadgets</span>
+          <h5>Vibrating muscle massage gun</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 799</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro e">
+        <img src="assets/products/22.webp" alt="" />
+        <div class="des">
+          <span>Equipment</span>
+          <h5> Electric Wireless Portable Massage </h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 820</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro m">
+        <img src="assets/products/33.jpeg" alt="" />
+        <div class="des">
+          <span>Meditation</span>
+          <h5>Meditation Candle Sticks</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 1299</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro w">
+        <img src="assets/products/44.webp" alt="" />
+        <div class="des">
+          <span>Wellness And Healing</span>
+          <h5>Knee Massager Pain Relief Machine</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 689</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro g">
+        <img src="assets/products/a1.webp" alt="" />
+        <div class="des">
+          <span>Gadgets</span>
+          <h5>Inflated Stability Wobble Cushion</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 599</h4>
+        </div>
+       <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro g">
+        <img src="assets/products/a2.webp" alt="" />
+        <div class="des">
+          <span>Gadgets</span>
+          <h5> Gyro Power Wrist Ball </h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 659</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro e">
+        <img src="assets/products/a3.jpeg" alt="" />
+        <div class="des">
+          <span>Equipments</span>
+          <h5>Active Hot Ab Belt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 479</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro e">
+        <img src="assets/products/a4.jpg" alt="" />
+        <div class="des">
+          <span>Equipments</span>
+          <h5>Folded Treadmill</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 729</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro m">
+        <img src="assets/products/a5.jpg" alt="" />
+        <div class="des">
+          <span>Meditation</span>
+          <h5>Lord Shiva Statue Cone Incense Holder </h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 739</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro m">
+        <img src="assets/products/a6.jpeg" alt="" />
+        <div class="des">
+          <span>Meditation</span>
+          <h5>Calm Down F Candle</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 819</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro w">
+        <img src="assets/products/a7.webp" alt="" />
+        <div class="des">
+          <span>Welness and Healing</span>
+          <h5>Physiotherapy Foot Massage</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 689</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro w">
+        <img src="assets/products/a8.webp" alt="" />
+        <div class="des">
+          <span>Welness and Healing</span>
+          <h5>Lower Back Pain Relief Device </h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 799</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+     
+
+
+
+
+      
+
+
+
+    </div>
+  </section>
+
+  <!-- Pagination -->
+
+  <!-- <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fa fa-long-arrow-alt-right"></i></a>
+
+  </section> -->
+
+  <!-- Newsletter -->
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign up For Newsletter</h4>
+      <p>
+        Get E-mail updates about out latest shop and
+        <span>special offer.</span>
+      </p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your email address" />
+      <button class="normal">Sign up</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section-p1">
+    <div class="col">
+      <img src="assets/logo.png" alt="" style="height:50px; width: 200px; margin-bottom: 20px;" />
+      <h4>Contact</h4>
+      <p><b>Address:</b> Andheri (E), Mumbai, Maharashtra</p>
+      <p><b>Phone:</b> +01 2222 365 / (+91) 01 2345 6789</p>
+      <p><b>Hours:</b> 10:00 - 18:00, Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fab fa-linkedin" style="font-size:18px"
+            onclick="window.location.href='www.linkedin.com/in/mihir2403';"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="about.html">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="contact.html">Contact us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="cart.html">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="about.html">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="img/pay/app.jpg" alt="" />
+        <img src="img/pay/play.jpg" alt="" />
+      </div>
+      <p>Secured Payment Gateway</p>
+      <img src="img/pay/pay.png" alt="" />
+    </div>
+    
+  </footer>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Isotope -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+
+
+
+  <!-- Custom JS file -->
+  <script src="script.js"></script>
+
+  <script>
+    // Shop Page Isotope Filter
+
+    // init Isotope
+    var $grid = $('.pro-container').isotope({
+      // options
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'button', function ()
+    {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+      // $grid.isotope({ layoutMode: 'fitColumns' });
+
+    });
+  </script>
+</body>
+
+</html>
